@@ -1,0 +1,3 @@
+rootProject.name='RAdapter'
+include ':app'
+include ':app:radapter'
