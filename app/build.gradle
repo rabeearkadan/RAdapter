@@ -7,7 +7,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "com.rabeearkadan.sample"
+        applicationId "com.rabeearkadan.radapter"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1

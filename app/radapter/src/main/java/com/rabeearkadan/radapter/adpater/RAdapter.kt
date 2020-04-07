@@ -58,9 +58,9 @@ class RAdapter : RecyclerView.Adapter<BaseHolder> {
 
     override fun onBindViewHolder(holder: BaseHolder, position: Int) {
         if ( this._list!!.isEmpty() ){
-            this.list!![position].bind(holder, position ,iActions )
+            this.list!![position].bind(context!!, holder, position ,iActions )
         }else{
-            this._list!![position].bind(holder, position, iActions)
+            this._list!![position].bind(context!!, holder, position, iActions)
         }
     }
 
