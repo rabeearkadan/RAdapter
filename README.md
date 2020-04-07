@@ -134,8 +134,8 @@ adapter = RAdapter(this@BasicSampleActivity, items, object :IActions{
         })   
 
 ```
-### Adapter Functions
 
+### Adapter Functions
 ```
 adapter.setItems(list: ArrayList<BaseModel>)
 adapter.addItem( position: Int , item : BaseModel )
