@@ -153,7 +153,7 @@ adapter.search (value : Any, key : String? = null , exact : Boolean = false )
 
 adapter.clearSearch()
 
-// in case the model is JSONObject or any Object ,  need to specify the key to perform the search on 
+// in case the model is JSONObject or any Object ,  need to specify the key to perform the sort on 
 adapter.sort (key: String? = null , asc : Boolean = true )
 
 ```
