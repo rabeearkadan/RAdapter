@@ -46,7 +46,7 @@ class RAdapter : RecyclerView.Adapter<BaseHolder> {
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BaseHolder {
-        return BaseHolder(LayoutInflater.from(context).inflate(viewType,null))
+        return BaseHolder(LayoutInflater.from(context).inflate(viewType,parent , false))
     }
 
     override fun getItemViewType(position: Int): Int {
