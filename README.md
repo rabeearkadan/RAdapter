@@ -7,7 +7,7 @@ Include instructions on how to integrate the library into your projects. For ins
 
 ```
 dependencies {
-  implementation 'com.rabeearkadan.radapter:RAdapter:1.0.5'
+  implementation 'com.rabeearkadan.radapter:RAdapter:1.0.6'
 }
 ```
 
